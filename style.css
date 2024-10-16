@@ -1,0 +1,88 @@
+* {
+    margin: 0px;
+    padding: 0px;}
+
+.kopiko-header-logo{
+
+    position: absolute;
+    width: 180px;
+    top:15px;
+    left:110px
+}
+
+   
+ 
+
+.navigation-bar{
+  display: flex;
+  flex-direction: row;
+ margin-left: 650px;
+
+}
+
+.nav{
+margin-left: 50px;
+justify-content: flex-end;
+font-size: 25px;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    
+
+.img-responsive{
+    position: absolute;
+    left:201px;
+    top:703px;
+    ;
+}
+.coffe{
+    position: absolute;
+    left: 549px;
+    top: 655px;
+    font-size: 49px;
+}
+.coffe-p{
+
+ position: absolute;
+    left: 549px;
+    top: 723px;
+    font-size:23px;
+}
+.coffe-n{
+    position: absolute;
+    left: 607px;
+    top: 1140px;
+    font-size: 100px;
+}
+.newp{
+    position: absolute;
+    left: 626px;
+    top: 1259px;
+    font-size: 25px;
+}
+
+.whats{
+    position: absolute;
+    left: 349px;
+    top: 1891px;
+    font-size: 33px;
+}
+.whatp{
+    position: absolute;
+    left: 332px;
+    top: 1980px;
+    font-size: 23px;
+}
+.finalp{
+    position: absolute;
+    left: 133px;
+    top: 2383px;
+    font-size: 13px;
+}
+
+
