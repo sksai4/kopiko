@@ -1,88 +1,97 @@
+/* Reset default margin and padding for all elements */
 * {
     margin: 0px;
-    padding: 0px;}
-
-.kopiko-header-logo{
-
-    position: absolute;
-    width: 180px;
-    top:15px;
-    left:110px
+    padding: 0px;
 }
 
-   
- 
-
-.navigation-bar{
-  display: flex;
-  flex-direction: row;
- margin-left: 650px;
-
+/* Styles for the Kopiko header logo */
+.kopiko-header-logo {
+    position: absolute; /* Absolute positioning to place the logo */
+    width: 180px; /* Width of the logo */
+    top: 15px; /* Distance from the top of the viewport */
+    left: 110px; /* Distance from the left side of the viewport */
 }
 
-.nav{
-margin-left: 50px;
-justify-content: flex-end;
-font-size: 25px;
+/* Navigation bar styles */
+.navigation-bar {
+    display: flex; /* Flexbox layout for navigation items */
+    flex-direction: row; /* Arrange items in a row */
+    margin-left: 650px; /* Space from the left */
 }
 
-.container{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
+/* Styles for individual navigation items */
+.nav {
+    margin-left: 50px; /* Space between navigation items */
+    justify-content: flex-end; /* Align items to the end of the container */
+    font-size: 25px; /* Font size for navigation text */
 }
 
-    
-
-.img-responsive{
-    position: absolute;
-    left:201px;
-    top:703px;
-    ;
-}
-.coffe{
-    position: absolute;
-    left: 549px;
-    top: 655px;
-    font-size: 49px;
-}
-.coffe-p{
-
- position: absolute;
-    left: 549px;
-    top: 723px;
-    font-size:23px;
-}
-.coffe-n{
-    position: absolute;
-    left: 607px;
-    top: 1140px;
-    font-size: 100px;
-}
-.newp{
-    position: absolute;
-    left: 626px;
-    top: 1259px;
-    font-size: 25px;
+/* Container styles for aligning items in the header */
+.container {
+    display: flex; /* Flexbox layout for the container */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items vertically */
 }
 
-.whats{
-    position: absolute;
-    left: 349px;
-    top: 1891px;
-    font-size: 33px;
-}
-.whatp{
-    position: absolute;
-    left: 332px;
-    top: 1980px;
-    font-size: 23px;
-}
-.finalp{
-    position: absolute;
-    left: 133px;
-    top: 2383px;
-    font-size: 13px;
+/* Responsive image styles */
+.img-responsive {
+    position: absolute; /* Absolute positioning to place the image */
+    left: 201px; /* Distance from the left side */
+    top: 703px; /* Distance from the top */
 }
 
+/* Styles for the coffee specialist heading */
+.coffe {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 549px; /* Distance from the left side */
+    top: 655px; /* Distance from the top */
+    font-size: 49px; /* Font size for the heading */
+}
 
+/* Styles for the coffee description paragraph */
+.coffe-p {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 549px; /* Distance from the left side */
+    top: 723px; /* Distance from the top */
+    font-size: 23px; /* Font size for the description */
+}
+
+/* Styles for the new product heading */
+.coffe-n {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 607px; /* Distance from the left side */
+    top: 1140px; /* Distance from the top */
+    font-size: 100px; /* Font size for the new product heading */
+}
+
+/* Styles for the new product description paragraph */
+.newp {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 626px; /* Distance from the left side */
+    top: 1259px; /* Distance from the top */
+    font-size: 25px; /* Font size for the description */
+}
+
+/* Styles for the Java coffee beans heading */
+.whats {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 349px; /* Distance from the left side */
+    top: 1891px; /* Distance from the top */
+    font-size: 33px; /* Font size for the heading */
+}
+
+/* Styles for the Java coffee beans description paragraph */
+.whatp {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 332px; /* Distance from the left side */
+    top: 1980px; /* Distance from the top */
+    font-size: 23px; /* Font size for the description */
+}
+
+/* Styles for the copyright footer */
+.finalp {
+    position: absolute; /* Absolute positioning for precise placement */
+    left: 133px; /* Distance from the left side */
+    top: 2383px; /* Distance from the top */
+    font-size: 13px; /* Font size for the copyright text */
+}
